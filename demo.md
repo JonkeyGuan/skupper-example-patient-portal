@@ -149,26 +149,26 @@ First, use `skupper token create` in one namespace to generate the token.  Then,
 _**Console for public:**_
 
 ~~~ shell
-skupper token create ~/secret.token
+skupper token create ./secret.token
 ~~~
 
 _Sample output:_
 
 ~~~ console
-$ skupper token create ~/secret.token
-Token written to ~/secret.token
+$ skupper token create ./secret.token
+Token written to ./secret.token
 ~~~
 
 _**Console for private:**_
 
 ~~~ shell
-skupper link create ~/secret.token
+skupper link create ./secret.token
 ~~~
 
 _Sample output:_
 
 ~~~ console
-$ skupper link create ~/secret.token
+$ skupper link create ./secret.token
 Site configured to link to https://10.105.193.154:8081/ed9c37f6-d78a-11ec-a8c7-04421a4c5042 (name=link1)
 Check the status of the link using 'skupper link status'.
 ~~~
