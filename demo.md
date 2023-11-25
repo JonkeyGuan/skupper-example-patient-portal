@@ -86,7 +86,7 @@ Skupper is now installed in namespace 'public'.  Use 'skupper status' to get mor
 _**Console for private:**_
 
 ~~~ shell
-skupper init
+skupper init skupper init --enable-console --enable-flow-collector
 ~~~
 
 _Sample output:_
